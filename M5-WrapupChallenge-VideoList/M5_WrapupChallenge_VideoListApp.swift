@@ -12,6 +12,7 @@ struct M5_WrapupChallenge_VideoListApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(VideoModel())
         }
     }
 }
